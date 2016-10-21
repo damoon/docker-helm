@@ -1,6 +1,6 @@
 FROM lachlanevenson/k8s-kubectl:v1.4.3
 
-ENV HELM_LATEST_VERSION="v2.0.0-alpha.5"
+ENV HELM_LATEST_VERSION="v2.0.0-beta.1"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
